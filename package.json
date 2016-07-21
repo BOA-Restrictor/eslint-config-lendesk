@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-lendesk",
+  "version": "1.0.0",
+  "description": "Lendesk JS ESlint Standard",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BOA-Restrictor/eslint-config-lendesk.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": {
+    "email": "michael.steward@lendesk.com",
+    "name": "Michael Steward",
+    "url": "http://lendesk.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BOA-Restrictor/eslint-config-lendesk/issues"
+  },
+  "homepage": "https://github.com/BOA-Restrictor/eslint-config-lendesk#readme",
+  "dependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^2.13.1",
+    "eslint-plugin-react": "^5.2.2"
+  }
+}
