@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lendesk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lendesk JS ESlint Standard",
   "main": "index.js",
   "repository": {
