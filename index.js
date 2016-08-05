@@ -9,16 +9,11 @@ module.exports = {
     'ecmaVersion': 6,
     'sourceType': 'module',
     'ecmaFeatures': {
-        'jsx': true,
-        'impliedStrict': true
+      'jsx': true,
+      'impliedStrict': true
     }
   },
   plugins: ['react'],
-  settings: {
-    react: {
-      version: '15.1'
-    }
-  },
   rules: {
     'max-nested-callbacks': [2, 2],
     'no-undef': 2,
@@ -63,6 +58,7 @@ module.exports = {
     'react/jsx-curly-spacing': 1,
     'react/jsx-uses-react': 1,
     'react/jsx-uses-vars': 1,
+    'react/jsx-wrap-multilines': 1,
     'react/no-danger': 1,
     'react/no-did-mount-set-state': 1,
     'react/no-did-update-set-state': 1,
@@ -70,7 +66,6 @@ module.exports = {
     'react/no-unknown-property': 1,
     'react/prop-types': [1, { ignore: ['children'] }],
     'react/react-in-jsx-scope': 1,
-    'react/require-extension': 1,
     'react/self-closing-comp': 1,
     'react/sort-comp': [1, {
       'order': [
@@ -80,7 +75,6 @@ module.exports = {
         'render'
       ]
     }],
-    'react/wrap-multilines': 1,
     'no-case-declarations': 1,
     'no-sparse-arrays': 1,
     'no-self-assign': 1,

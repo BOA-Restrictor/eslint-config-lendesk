@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lendesk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lendesk JS ESlint Standard",
   "main": "index.js",
   "repository": {
@@ -23,12 +23,12 @@
   "homepage": "https://github.com/BOA-Restrictor/eslint-config-lendesk#readme",
   "dependencies": {
     "babel-eslint": "^6.1.2",
-    "eslint": "^2.13.1",
+    "eslint": "^3.2.2",
     "eslint-plugin-react": "^6.0.0"
   },
   "peerDependencies": {
-    "eslint": "^2.13.1",
     "babel-eslint": "^6.1.2",
+    "eslint": "^3.2.2",
     "eslint-plugin-react": "^6.0.0"
   }
 }
