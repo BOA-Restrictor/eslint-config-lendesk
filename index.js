@@ -62,7 +62,7 @@ module.exports = {
     'react/no-danger': 1,
     'react/no-did-mount-set-state': 1,
     'react/no-did-update-set-state': 1,
-    'react/no-multi-comp': 1,
+    "react/no-multi-comp": [1, { "ignoreStateless": true }]
     'react/no-unknown-property': 1,
     'react/prop-types': [1, { ignore: ['children'] }],
     'react/react-in-jsx-scope': 1,
